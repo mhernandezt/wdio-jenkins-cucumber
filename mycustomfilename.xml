@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Open the TAU home page" timestamp="2021-04-07T12:43:20" time="10.249" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Open the TAU home page"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="featureFile" value=".\features\OpenPage.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.89_0_4389_114.windows.Open the TAU home page" name="Verify title" time="10.241">
+      <system-out><![CDATA[
+✅ Given the user open TAU home page✅ When the user review the page✅ Then the title should be "Test Automation University | Applitools"
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
