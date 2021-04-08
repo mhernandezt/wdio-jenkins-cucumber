@@ -12,5 +12,5 @@ When('the user review the page', () => {
 });
 
 Then('the title should be "Test Automation University | Applitools"', () => {
-    assert.equal(browser.getTitle(), 'Test Automation University | Applitools');
+    assert.equal(browser.getTitle(), 'Test Automation University | Applitools1');
 });
