@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Read paths" timestamp="2021-04-07T23:38:59" time="44.74" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Read paths"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="featureFile" value=".\features\ReadPaths.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.89_0_4389_114.windows.Read paths" name="Evaluate percentages" time="44.728">
+      <system-out><![CDATA[
+✅ Given the user is on Learning path page✅ When the user selects "Javascript" programming language✅ Then the page is filtered
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
