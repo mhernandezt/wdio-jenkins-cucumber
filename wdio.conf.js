@@ -138,9 +138,9 @@ exports.config = {
     reporters: [
         'spec',
         ['junit', {
-            outputDir: './',
-            outputFileFormat: function(options) { 
-                return `results-${options.cid}.${options.capabilities}.xml`
+            outputDir: './logs/',
+            outputFileFormat(options) {
+                return `results-${options.cid}.xml`;
             }
         }]
     ],

@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-<<<<<<< HEAD
-  <testsuite name="Open the TAU home page" timestamp="2021-04-07T14:51:35" time="10.567" tests="1" failures="1" errors="1" skipped="0">
-=======
-  <testsuite name="Open the TAU home page" timestamp="2021-04-07T23:00:44" time="25.417" tests="1" failures="0" errors="0" skipped="0">
->>>>>>> ae62e5801c2bedd77034f5e8f865be35b1aea40c
+  <testsuite name="Open the TAU home page" timestamp="2021-04-07T15:00:03" time="10.21" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="featureName" value="Open the TAU home page"/>
       <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
       <property name="featureFile" value=".\features\OpenPage.feature"/>
     </properties>
-<<<<<<< HEAD
-    <testcase classname="CucumberJUnitReport-chrome.89_0_4389_114.windows.Open the TAU home page" name="Verify title" time="10.558">
+    <testcase classname="CucumberJUnitReport-chrome.89_0_4389_114.windows.Open the TAU home page" name="Verify title" time="10.201">
       <failure/>
       <error message="AssertionError [ERR_ASSERTION]: 'Test Automation University | Applitools' == 'Test Automation University | Applitools1'"/>
-=======
-    <testcase classname="CucumberJUnitReport-chrome.89_0_4389_114.windows.Open the TAU home page" name="Verify title" time="25.409">
->>>>>>> ae62e5801c2bedd77034f5e8f865be35b1aea40c
       <system-out><![CDATA[
 ✅ Given the user open TAU home page✅ When the user review the page❗ Then the title should be "Test Automation University | Applitools"
 ]]></system-out>
@@ -28,9 +20,9 @@ AssertionError [ERR_ASSERTION]: 'Test Automation University | Applitools' == 'Te
     -Test Automation University | Applitools
     +Test Automation University | Applitools1
 
-    at World.<anonymous> (C:\Users\Bnext\Documents\jenkins_project\test\steps\openPage.test.js:15:12)
-    at World.executeSync (C:\Users\Bnext\Documents\jenkins_project\node_modules\@wdio\sync\build\index.js:38:22)
-    at C:\Users\Bnext\Documents\jenkins_project\node_modules\@wdio\sync\build\index.js:69:68
+    at World.<anonymous> (c:\Users\Bnext\Documents\jenkins_project\test\steps\openPage.test.js:15:12)
+    at World.executeSync (c:\Users\Bnext\Documents\jenkins_project\node_modules\@wdio\sync\build\index.js:38:22)
+    at c:\Users\Bnext\Documents\jenkins_project\node_modules\@wdio\sync\build\index.js:69:68
 ]]></system-err>
     </testcase>
   </testsuite>
